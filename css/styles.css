@@ -904,4 +904,8 @@ a {
 .mySelf .btn {
   background-color: #017103;
   color: #fff;
+  transition: background-color 0.4s;
+}
+.mySelf .btn:hover {
+  background-color: #19b81c;
 }
