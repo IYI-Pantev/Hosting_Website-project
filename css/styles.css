@@ -887,3 +887,21 @@ a {
     grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
   }
 }
+
+.mySelf {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 100px;
+  max-width: 400px;
+}
+
+.mySelf h3 {
+  color: #fff;
+  font-size: 4rem;
+}
+
+.mySelf .btn {
+  background-color: #017103;
+  color: #fff;
+}
